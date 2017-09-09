@@ -1,0 +1,9 @@
+package deneme.app
+
+public class HellowWorldApp
+{
+  public static void main()
+  {
+    System.out.println("Hello World");
+  }
+}
