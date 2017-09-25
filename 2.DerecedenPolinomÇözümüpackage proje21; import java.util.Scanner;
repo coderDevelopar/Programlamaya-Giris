@@ -1,0 +1,31 @@
+package proje21;
+import java.util.Scanner;
+
+public class Proje21 {
+
+    public static void main(String[] args) {
+    
+        Scanner scan = new Scanner(System.in);
+        
+        int s1 = 0;
+        int s2 = 0;
+        int s3 = 0;
+        
+        System.out.print("Bir Sayı Giriniz :");
+        s1 = scan.nextInt();
+        
+        System.out.print("Bir Sayı Giriniz :");
+        s2 = scan.nextInt();
+        
+        System.out.print("Bir Sayı Giriniz :");
+        s3 = scan.nextInt();
+        
+        System.out.print("Sonuç : " + denklem(s1 , s2 , s3));
+    }
+    
+    public static int denklem(int s1 , int s2 , int s3){
+        
+        return s1*s1 + s2*s2 + 3*s3;
+    }
+    
+}
